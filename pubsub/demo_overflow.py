@@ -54,6 +54,7 @@ def main():
 
     # Give subscriber thread time to print its disconnect message
     time.sleep(1)
+
     print(f"\n[Demo] Done. Sent {total_sent} x 1MB = {total_mb} MB before overflow.")
 
 
